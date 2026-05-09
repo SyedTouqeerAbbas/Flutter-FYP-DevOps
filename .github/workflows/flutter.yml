@@ -1,0 +1,29 @@
+name: Flutter DevOps Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  flutter-ci:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Setup Flutter
+      uses: subosito/flutter-action@v2
+      with:
+        flutter-version: '3.19.0'
+
+    - name: Install Dependencies
+      run: flutter pub get
+
+    - name: Analyze Flutter Code
+      run: flutter analyze
+
+    - name: Success Message
+      run: echo "Flutter Workflow Executed Successfully"
