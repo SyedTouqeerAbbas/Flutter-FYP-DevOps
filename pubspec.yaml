@@ -1,0 +1,43 @@
+name: fitness_wellness_companion
+
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.1.1
+  firebase_auth: ^5.1.1
+  google_sign_in: ^6.2.1
+  font_awesome_flutter: ^10.7.0
+  shared_preferences: ^2.5.5
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/background.jpg
+    - assets/images/gym_icon.png
+    - assets/images/posture.jpg
+    - assets/images/plans.jpg
+    - assets/images/workout.jpg
+    - assets/images/wellness.jpg
+    - assets/images/profile.png
+    - assets/images/posture1.jpg
+    - assets/images/fitness_log.png
+    - assets/images/store.png
+    - assets/images/wellness1.jpg
+    - assets/images/reward.png

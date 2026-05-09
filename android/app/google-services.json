@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "232883541594",
+    "project_id": "fitness-wellness-compani-4b992",
+    "storage_bucket": "fitness-wellness-compani-4b992.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232883541594:android:65470e3bbcb5f6b4b6aa63",
+        "android_client_info": {
+          "package_name": "com.example.fitness_wellness_companion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfPP6JlH80srOJRkwIO0HbQkEVvrOoml4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
